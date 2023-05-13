@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "bizcharts": "^4.0.0",
+    "bizcharts-plugin-slider": "^2.0.3",
     "@craco/craco": "^6.4.3",
     "craco-less": "^2.0.0",
     "@testing-library/jest-dom": "^5.16.5",
