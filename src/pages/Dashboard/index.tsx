@@ -35,8 +35,8 @@ const AnalyticsDashboard: React.FC = () => (
                 <InfoCircleOutlined />
               </Tooltip>
             }
-            total={() => 6000}
-
+            total={6000}
+            footer={"hi"}
             contentHeight={46}
           >
           </FiguresChartCard>
@@ -84,7 +84,7 @@ const AnalyticsDashboard: React.FC = () => (
                 <InfoCircleOutlined />
               </Tooltip>
             }
-            total={() => 6000}
+            total={6000}
             footer={
               <Field label="yolo swag" value="hihihih" />
             }
@@ -99,12 +99,12 @@ const AnalyticsDashboard: React.FC = () => (
       <Row gutter={24}>
         <Col xl={12} lg={24} md={24} sm={24} xs={24}>
           <TitleCard title="Hi"
-            content="hell" />
+            content={"hi"}/>
         </Col>
 
         <Col xl={12} lg={24} md={24} sm={24} xs={24}>
           <TitleCard title="FeeFiFoFum"
-            content= "rmb to put piechart when it cn correctly render here"
+            content={"piechart here :("}
           />
         </Col>
       </Row>
