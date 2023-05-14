@@ -57,6 +57,9 @@ class Sider extends React.Component {
         <Menu.Item icon={<SettingOutlined />}>
           <a href="/transaction-query">Transaction Query</a>
         </Menu.Item>
+        <Menu.Item icon={<SettingOutlined />}>
+          <a href="/reconciliation">Transaction Reconciliation</a>
+        </Menu.Item> 
       </Menu>
     );
   }

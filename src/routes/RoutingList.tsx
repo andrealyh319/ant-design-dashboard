@@ -3,6 +3,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Dashboard from '../pages/Dashboard/index';
 import GenerateReports from '../pages/Reports';
 import TransactionQuery from '../pages/TransactionQuery';
+import TransactionReconciliation from '../pages/TransactionReconciliation';
 
 const router = createBrowserRouter([
     {
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
     {
         path: 'transaction-query',
         element: <TransactionQuery />
+    },
+    {
+        path: 'reconciliation',
+        element: <TransactionReconciliation />
     }
 
 

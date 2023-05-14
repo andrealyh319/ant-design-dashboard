@@ -9,7 +9,7 @@ import Field from '../../components/Cards/Field';
 import TabChartCard from '../../components/Cards/TabCard';
 import TitleCard from '../../components/Cards/TitleCard';
 
-// import PieChart from '../../components/Charts/PieChart';
+import PieChart from '../../components/Charts/PieChart';
 import ReactDOM from 'react-dom';
 
 const topColResponsiveProps = {
@@ -104,7 +104,7 @@ const AnalyticsDashboard: React.FC = () => (
 
         <Col xl={12} lg={24} md={24} sm={24} xs={24}>
           <TitleCard title="FeeFiFoFum"
-            content={"piechart here :("}
+            content={<PieChart />}
           />
         </Col>
       </Row>
