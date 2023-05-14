@@ -11,6 +11,7 @@ function App() {
         <Route path="/"  />
         <Route path="/analytics-dashboard" />
         <Route path="/reports"  />
+        <Route path="/transaction-query" />
       </Routes>
     </Router>
     </div>

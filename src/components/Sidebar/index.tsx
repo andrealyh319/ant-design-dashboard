@@ -12,7 +12,7 @@ const mountNode = document.getElementById('root');
 class Sider extends React.Component {
 
   handleClick = (e: any) => {
-    console.log('click ', e);
+    console.log('click', e);
   };
 
   render() {
@@ -49,7 +49,13 @@ class Sider extends React.Component {
           <Menu.Item key="12">Option 12</Menu.Item>
         </SubMenu>
         <Menu.Item key="reports">
-          test
+          <a href="/reports">Reports</a>
+        </Menu.Item>
+        <Menu.Item key="dashboard">
+          <a href="/analytics-dashboard">Dashboard</a>
+        </Menu.Item>
+        <Menu.Item icon={<SettingOutlined />}>
+          <a href="/transaction-query">Transaction Query</a>
         </Menu.Item>
       </Menu>
     );

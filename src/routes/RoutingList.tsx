@@ -2,6 +2,7 @@ import React from 'react';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Dashboard from '../pages/Dashboard/index';
 import GenerateReports from '../pages/Reports';
+import TransactionQuery from '../pages/TransactionQuery';
 
 const router = createBrowserRouter([
     {
@@ -16,6 +17,10 @@ const router = createBrowserRouter([
     {
         path: 'reports',
         element: <GenerateReports />
+    },
+    {
+        path: 'transaction-query',
+        element: <TransactionQuery />
     }
 
 
